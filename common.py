@@ -7,14 +7,8 @@ import sys
 import db
 import nltk
 import os
-import gensim
-import RAKE
 import re
 import io
-from nltk.corpus import state_union
-from nltk.stem import PorterStemmer
-from nltk.tokenize import sent_tokenize, word_tokenize
-from nltk.tokenize import PunktSentenceTokenizer
 from werkzeug import secure_filename
 import importlib
 from google.cloud import speech
