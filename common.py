@@ -62,7 +62,7 @@ def upload_file_post():
         with open("text.txt", "w") as f:
             f.write(text)
         r.extract_keywords_from_text(text)
-        return render_template("displayresults.html", keynote = r.get_ranked_phrases()[0:1])
+        return render_template("displayresults.html", keynote = r.get_ranked_phrases()[0:6], source = text)
 
 @commonPages.route("/displayresults", methods = ['POST', 'GET'])
 def displayresults():
@@ -73,7 +73,7 @@ def displayresults():
 
             temp, mainwords, judgement = ["abc", ["sadasd","asdas"],["adsa"]], "csa", "adsa"
 #            db.writequestion(question, mainwords)
-            return render_template("displayresults.html", keynote = r.get_ranked_phrases()[0:1])
+            return render_template("displayresults.html", keynote = r.get_ranked_phrases()[0:6])
         else:
             return redirect(url_for('commonPages.notfound'))
     if request.method == 'POST':

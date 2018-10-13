@@ -4,9 +4,13 @@
         <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='Elements/css/style.css')}}">
     </head>
         <div class="form">
-            <center><h3>Top 1 KeyNote: {{keynote[0]}}</h3></a></form></center>
-            <center><h3>Other keynotes:{{keynote[1]}}</h3></a></form></center>
-            <center><h5>Sources:</h4></a></form></center>
+            <center><h3>KeyNote 1: {{keynote[0]}}</h3></a></form></center>
+            <center><h3>KeyNote 2:{{keynote[1]}}</h3></a></form></center>
+            <center><h3>KeyNote 3: {{keynote[2]}}</h3></a></form></center>
+            <center><h3>KeyNote 4:{{keynote[3]}}</h3></a></form></center>
+            <center><h3>KeyNote 5: {{keynote[4]}}</h3></a></form></center>
+            <center><h3>KeyNote 6:{{keynote[5]}}</h3></a></form></center>
+            <center><h5>Source: {{source}}</h4></a></form></center>
               <center><form action = "http://localhost:8080/uploader" method = "POST"
                  enctype = "multipart/form-data">
                  <input type = "file" name = "file" />

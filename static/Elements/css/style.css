@@ -10,7 +10,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #b1c9ef;
 	}
 
 		body.is-loading * {
@@ -74,7 +74,6 @@
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			text-decoration: none;
 		}
 
 	h2 {
@@ -85,6 +84,11 @@
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		background: #80c64a;
+  		background: -webkit-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -o-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -moz-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: linear-gradient(45deg, #56ab2f, #a8e063);
 	}
 
 	h4 {
@@ -225,6 +229,13 @@
 
 	form {
 		margin: 0 0 2em 0;
+		background: #80c64a;
+  		background: -webkit-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -o-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -moz-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: linear-gradient(45deg, #56ab2f, #a8e063);
+  		color: white;
+
 	}
 
 	label {
@@ -1345,7 +1356,14 @@
 		#main > .container > :last-child > :last-child > :last-child {
 			margin-bottom: 0;
 		}
-
+.form {
+		background: #80c64a;
+  		background: -webkit-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -o-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: -moz-linear-gradient(45deg, #56ab2f, #a8e063);
+  		background: linear-gradient(45deg, #56ab2f, #a8e063);
+  		color: white;
+}
 /* CTA */
 
 	#cta {
